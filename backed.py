@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # 2. Enable CORS for your app
 
 # Note: Keep your API key private in real projects!
-client = genai.Client(api_key="AIzaSyBdtttCzK8llDRDohc7RGRZ4fDsijXBp2w")
+client = genai.Client(api_key="AIzaSyCwc9JuR05M-ekkQuuLmafjN-K9so8Qq1s")
 
 
 
