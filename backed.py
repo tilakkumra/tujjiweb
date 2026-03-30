@@ -1,7 +1,5 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS  # 1. Import CORS
-import speech_recognition as sr
-import pyttsx3
 from google import genai
 import time
 
