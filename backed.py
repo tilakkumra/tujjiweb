@@ -9,14 +9,8 @@ CORS(app)  # 2. Enable CORS for your app
 # Note: Keep your API key private in real projects!
 client = genai.Client(api_key="AIzaSyBdtttCzK8llDRDohc7RGRZ4fDsijXBp2w")
 
-engine = pyttsx3.init()
-engine.setProperty('rate', 160)
 
-def speak(text):
-    # Note: runAndWait() can sometimes block the Flask response 
-    # until the speaking finishes. 
-    engine.say(text)
-    engine.runAndWait()
+
 
 
 
