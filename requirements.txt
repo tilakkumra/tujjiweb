@@ -1,6 +1,5 @@
 flask
 flask-cors
 google-generativeai
-pyttsx3
-speechrecognition
+google-genai
 gunicorn
